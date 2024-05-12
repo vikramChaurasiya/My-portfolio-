@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style4.css">
+    <script src="https://kit.fontawesome.com/e51e5bc584.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo-white.png" alt="logo" class="logo"  />
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Design</p>
+                <h1>Hi ,I'm <span>Vikram</span><br>Kr Chaurasiya From India </h1>
+            </div>
+        </div>
+    </div>
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="port3.jpg" alt="img">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Vikram Kumar Chaurasiya As an engineering student with a passion for technology and software development, I bring a unique and creative problem-solving skills. With a solid foundation in engineering principles and a keen interest in software development. I am currently pursuing BCA in 2nd year and i am learnt C,C++,HTML ,CSS . and I am currently learn java and javaScript.</p>
+                    
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- ---------skill--------- -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web/App Interfaces</li>
+                            <li><span>App Development</span><br>Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                    <!-- ---------Exprence--------- -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Learning Web Development</li>
+                            <li><span>Fresher</span><br>-------------------</li>
+                            <li><span>Web Development</span><br>Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                    <!-- ---------Education--------- -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Computer Application</span><br>College: Langat Singh college Muzaffarpur <br>Year: I am currently second Year of pursuing BCA <br> Current CGPA: 7.8</li>
+                            <li><span>Intermidiate Of Science </span><br> Marwari college Darbhanga <br>Year of commpletion: 2022<br>Marks: 301</li>
+                            <li><span>High School</span><br>Zila school Darbhanga <br>Year of commpletion: 2020 <br>Marks: 374 </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------services--------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I am currently Learning this skill ...................</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>I am currently Learning this skill ...................</p>
+                    
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I am currently Learning this skill ...................</p>
+                    
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------Portfolio--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="social_media.png" alt="img">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connect you the tlaented people around the World. Download it from play store</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="music.webp" alt="img">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connect you the tlaented people around the World. Download it from play store</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="shop3.jpg" alt="img">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connect you the tlaented people around the World. Download it from play store</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -------------------Contact--------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1><div class="sub-title">Contact Me</div></h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> bhartivikram633@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i> 8252XXXXXX</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/vikram.kumar.7541" target="_blank"><i class="fa-brands fa-square-facebook" ></i></a>
+                        <a href="https://www.instagram.com/vikram.kumar.754?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://twitter.com/VikramK52918201" target="_blank" ><i class="fa-brands fa-square-twitter" ></i></a>
+                        <a href="https://www.linkedin.com/in/vikram-kr-chaurasiya-608901235" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="cvnvikram.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="sheet">
+                        <input type="text" name="Name" placeholder="Enter Name" required>
+                        <input type="email" name="Email" placeholder="Enter email"required>
+                        <input type="number" name="moblie"placeholder="Enter Moblie number"required>
+                        <textarea name="Message" rows="6" placeholder="Message" required></textarea>
+                        <button type="submit" class="btn btn2"  >Submit</button>
+                        <!-- <button type="reset" class="btn btn2">Reset</button> -->
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-sharp fa-regular fa-copyright"></i> 2024</p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+     var sidemeu = document.getElementById("sidemenu");
+
+     function openmenu(){
+        sidemeu.style.right = "0";
+        }
+     function closemenu(){
+        sidemeu.style.right = "-200px";
+        }
+    </script>
+   
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyqOuANOpZZug3pgBtfNESVfa0W7uEVCSyBDgjnjCTVlj3Feglvn9v_locuF1unjwT4rQ/exec'
+    const form = document.forms['sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML= " "
+            },1000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
